@@ -39,7 +39,7 @@ describe('House', function () {
             });
 
             it('returns a string with correct pluralization for 0 doors and 0 windows', function () {
-                var house = new House(1,1);
+                var house = new House(0,0);
                 expect(house.toString()).toEqual('The house has 0 doors and 0 windows');
             });
         });
